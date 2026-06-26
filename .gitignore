@@ -1,0 +1,50 @@
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build output
+bin/
+build/
+
+# Test output
+*.test
+*.out
+coverage.*
+
+# Go workspace files
+go.work
+
+# Dependencies
+vendor/
+
+# Environment / secrets
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Local git automation scripts
+git_push_*.sh
+
+# Exercism metadata/config
+**/.exercism/
